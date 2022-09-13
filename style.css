@@ -1,0 +1,178 @@
+/* FONTS */
+@font-face {
+  font-family: "sharpBookRegular19";
+  src: url(fonts/SharpGroteskBook19-Regular.ttf);
+}
+
+@font-face {
+  font-family: "sharpBookRegular25";
+  src: url(fonts/SharpGroteskBook25-Regular.ttf);
+}
+
+@font-face {
+  font-family: "sharpBookRegular20";
+  src: url(fonts/SharpGroteskBook20-Regular.ttf);
+}
+
+/* All pages */
+.wrapping {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+  padding-right: 10px;
+  padding-left: 10px;
+  /* width: 90%; */
+
+}
+
+.navbaring {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.navWrap {
+  padding-top: 50px;
+  max-width: 1600px;
+  padding-bottom: 46px;
+}
+
+.navTitle {
+  padding-top: 25px;
+  padding-left: 30px;
+  font-family: "sharpBookRegular25";
+  font-size: 20px;
+}
+
+.form-control.searchColor {
+  background-color: #F2F2F2;
+}
+
+.searchCon {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+#searchIn {
+  height: 38px;
+  padding-left: 30px;
+}
+
+.searchIcon {
+  position: absolute;
+  bottom: 9px;
+  left: 7px;
+  width: 20px;
+  height: 20px;
+}
+
+.headHeight {
+  line-height: 70px;
+
+}
+
+.bGone {
+  border: none;
+  border-color: transparent;
+  line-height: 60px;
+}
+
+.lineStyle {
+  line-height: 70px;
+}
+
+.blueIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.blackIcon {
+  width: 30px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+
+
+
+/* Main Page */
+.mainFolders {
+  padding-top: 58px;
+}
+
+.headSpace {
+  padding-bottom: 130px;
+}
+
+/* Inner page */
+.folderLocation {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1364px;
+  padding-right: 30px;
+  /* 3 */
+  padding-left: 30px;
+  /* 3 */
+  padding-top: 58px;
+  padding-bottom: 48px;
+}
+
+.locationStyle {
+  font-family: "sharpBookRegular20";
+  font-size: 20px;
+  color: #A0A0A0;
+}
+
+.tableWrap {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1364px;
+  padding-right: 30px;
+  /* 3 */
+  padding-left: 30px;
+  /* 3 */
+}
+
+.rSpace {
+  padding-bottom: 15px;
+}
+
+.tableText {
+  font-family: "sharpBookRegular19";
+  font-size: 17px;
+}
+
+.fileInfo {
+  color: #A0A0A0;
+  font-size: 12px;
+
+  /* font-family: "sharpGroteskLight19"; */
+}
+
+.icons {
+  width: 33px;
+}
+
+/* Video Page */
+/* .videoPlayer {} */
+
+/* PDF Page */
+.pdfView {
+  padding-top: 100px;
+}
+
+@media (max-width: 1399.98px) {
+
+  /* All pages */
+  .navWrap {
+    max-width: 1250px;
+  }
+
+  /* Inner page */
+  .folderLocation {
+    max-width: 1200px;
+  }
+
+  .tableWrap {
+    max-width: 1100px;
+  }
+}

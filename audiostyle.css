@@ -1,0 +1,33 @@
+.greyBack{
+    background-color: #F2F2F2;
+    height: 100vh;
+}
+.white{
+    background-color: white;
+}
+.audio{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.audioWrap{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 90%;
+}
+.pb{
+    padding-top: 10px;
+}
+.aControls{
+    padding-top: 30px;
+}
+.controlSize{
+    width: 20px;
+    height: auto;
+}
+progress{
+    width: 100%;
+}

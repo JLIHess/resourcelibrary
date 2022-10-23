@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <div class="navbaring">
+  <div class="navBottom">
     <nav class="navbar navbar-light">
       <div class="container-fluid navWrap">
         <a class="navbar-brand">
@@ -35,6 +35,16 @@
 
   <div class="mainSpace">
     <div class=" d-none d-md-block">
+
+      <!-- optional button -->
+      <a href="#">
+        <div class="buttonPlacement">
+          <button onclick="goBack()" class="backButton">
+            <img src="icons/leftarrow.svg" alt="">
+          </button>
+        </div>
+      </a>
+
       <a href="#" class="aStyle">
         <div class="folderLocation">
           <div class="locationStyle">Home / Flagship / Outsmarting Antisemitism</div>
@@ -192,6 +202,12 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+  <script>
+    function goBack() {
+
+      window.history.back()
+    }
+  </script>
 </body>
 
 </html>

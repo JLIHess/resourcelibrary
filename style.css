@@ -81,6 +81,51 @@
   padding-left: 5px;
 }
 
+.rowSpace {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1364px;
+  padding-right: 30px;
+  padding-left: 30px;
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.mainBack {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1364px;
+  padding-right: 30px;
+  padding-left: 30px;
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.mainBackButton {
+  border: none;
+  background-color: transparent;
+  height: 50px;
+  width: 20px;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.downSpace {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: right;
+}
+
+.download {
+  height: 30px;
+  width: auto;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+}
+
 .buttonPlacement {
   margin-right: auto;
   margin-left: auto;

@@ -8,12 +8,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-.back {
+/* .back {
     padding-top: 50px;
     padding-left: 50px;
     margin-bottom: -50px;
-}
+} */
 
 .bodys {
     min-height: 100vh;
@@ -241,6 +240,12 @@
 
 .container video {
     width: 100%;
+}
+
+.videoTitle {
+    color: #000;
+    padding-top: 20px;
+
 }
 
 @media screen and (max-width: 540px) {

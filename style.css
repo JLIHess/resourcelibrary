@@ -120,7 +120,7 @@
 }
 
 .download {
-  height: 30px;
+  height: 20px;
   width: auto;
   /* padding-top: 10px;
   padding-bottom: 10px; */
@@ -206,6 +206,33 @@
   background-color: #A0A0A0;
 }
 
+
+.backB {
+  height: 20px;
+  width: auto;
+}
+
+.embedLayout {
+  text-align: center;
+  padding-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+  padding-right: 30px;
+  padding-left: 30px;
+  width: 90%;
+  /* width: 90%; */
+}
+
+.embedcontent {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+  width: 90%;
+  height: 80vh;
+
+}
 
 /* Video Page */
 /* .videoPlayer {} */
